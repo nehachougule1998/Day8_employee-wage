@@ -3,10 +3,9 @@ import java.util.Random;
 import java.util.Scanner;
 public class Employeewage{
 	 static final int full_time = 1;
-	    static final int part_time = 2;
-	 public static void main(String[] args) {
-			 System.out.println("Welcome to employee_wage computation");
-			 
+	 static final int part_time = 2;
+	    public static void employeeAttendance(){
+	
 		     int wage_per_hrs = 20;
 	         int full_day_hrs = 8;
 	         int part_time_hrs = 4;
@@ -55,9 +54,11 @@ public class Employeewage{
 	         System.out.println("Total wage for a month is " + montly_Wage);
 	         System.out.println("Total working hours : "+ hours);
 	     	 System.out.println("total working days : "+ days);
-	     	 
 	    }
+	    public static void main(String[] args) {
+			 System.out.println("Welcome to employee_wage computation");
+			 Employeewage.employeeAttendance();
 	}
-
+}
 		
 
