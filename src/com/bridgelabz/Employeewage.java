@@ -73,12 +73,12 @@ public class Employeewage{
 		Employeewage employee2 = new Employeewage("microsoft", 34, 89, 37, 100);
 		employee2.employeeAttendance();
 		
-		EmpWageBuilder empBuilder = new EmpWageBuilder();
+		EmpBuilder empBuilder = new EmpBuilder();
 		
-		empBuilder.showinfo(employee1);
+		empBuilder.showInfo(employee1);
 		empBuilder.addCompany(employee1);
 		
-		empBuilder.showinfo(employee2);
+		empBuilder.showInfo(employee2);
 		empBuilder.addCompany(employee2);
 	}	
 }
