@@ -88,7 +88,7 @@ public class EmployeeWage {
 		company.companyMonthlyWage(monthlyWage);
 		
 		empWageBuilder.showInfo(company);
-		(empWageBuilder).addCompany(company);
+		empWageBuilder.addCompany(company);
 		
 		
 	}
