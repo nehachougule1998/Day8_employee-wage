@@ -16,7 +16,7 @@ public class EmployeeWage {
 			return FULL_TIME;
 
 		case 2:
-			System.out.println("employee part timr present");
+			System.out.println("employee part time present");
 			return PART_TIME;
 		default:
 			System.out.println("Employee is absent");
